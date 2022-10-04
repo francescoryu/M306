@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.text.ParseException;
 
 /**
- * @author Francesco Ryu, Chris Hunziker,
+ * @author Francesco Ryu
  * @version 1.0
  * @since 2022-10-03
  */
