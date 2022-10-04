@@ -12,6 +12,7 @@ public class xml2json {
     public static void main(String[] args) {
         xml2json program = new xml2json();
         program.run();
+        //TEST
     }
 
     private void run() {
