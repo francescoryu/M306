@@ -24,4 +24,6 @@ public class Messwerte {
             System.out.println(entry.toString());
         }
     }
+
+    
 }
