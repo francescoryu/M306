@@ -3,6 +3,12 @@ package backend;
 import java.util.Map;
 import java.util.TreeMap;
 
+/**
+ * @author Marko Joksimovic
+ * @version 1.0
+ * @since 2022-10-03
+ */
+
 public class Messwerte {
 
     TreeMap<Long, Double> bezug = new TreeMap<Long, Double>();
