@@ -1,4 +1,9 @@
-import GUI.DataGUI;
+import backend.DataHandler;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import java.io.IOException;
+import java.text.ParseException;
 
 /**
  * @author Francesco Ryu, Chris Hunziker,
@@ -7,7 +12,8 @@ import GUI.DataGUI;
  */
 
 public class Main {
-    public static void main(String[] args) {
-        new DataGUI();
+    public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException {
+        //new DataGUI();
+        new DataHandler().loadESLFolder();
     }
 }
