@@ -1,4 +1,5 @@
 import backend.DataHandler;
+import gui.DataGUI;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -13,7 +14,6 @@ import java.text.ParseException;
 
 public class Main {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, ParseException {
-        //new DataGUI();
         new DataHandler().loadESLFolder();
     }
 }

@@ -14,8 +14,7 @@ public class xml2json {
     }
 
     private void run() {
-        System.out.println("Hello World");
-
+        Gson gson = new Gson();
         String xmlPath = "src/main/resources/";
         File SDATFolder = new File(xmlPath + "SDAT-Files");
         File[] SDATFileList = SDATFolder.listFiles();
