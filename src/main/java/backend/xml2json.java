@@ -10,9 +10,8 @@ import com.google.gson.Gson;
 
 public class xml2json {
     public static void main(String[] args) {
-        xml2json program = new xml2json();
-        program.run();
-        //TEST
+        //xml2json program = new xml2json(mw);
+        //program.run();
     }
 
     private void run() {
